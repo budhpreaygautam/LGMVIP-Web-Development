@@ -39,7 +39,7 @@ export default function Getuser()
 
     return(
         <div className="App">
-            <h2>Users:</h2>
+            <h2>Users Details API :</h2>
             <div>
                 <div class="loader" id="loader"/>
                 <button class="Button" onClick={load_user}>Click Me For User Details</button>
