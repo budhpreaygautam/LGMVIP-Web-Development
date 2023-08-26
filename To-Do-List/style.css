@@ -1,0 +1,58 @@
+body
+{
+    background-color: rgb(14, 104, 103);
+    font-family: 'Edu SA Beginner', cursive;
+    color: rgb(153, 197, 235);
+    
+ }
+ 
+ .container
+ {
+    width: 400px;
+    padding: 35px;
+    text-align: center;
+    background-color: rgb(22, 70, 69);
+    margin-left: 33%;
+    margin-top: 30px;
+ }
+
+ input
+ {
+    width: 270px;
+    padding: 10px;
+    border: 2px solid rgb(6, 145, 145);
+    outline: none;
+    font-size: 19px;
+
+
+ }
+
+ button
+ {
+    width: 95px;
+    height: 41px;
+    background-color: rgb(18, 116, 113);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    outline: none;
+    border-radius: 2px;
+    font-size: 20px;
+ }
+
+.text ul
+{
+    position: relative;
+    background-color: rgb(52, 130, 128);
+    color: aliceblue;
+    font-size: 20px;
+    text-align: left;
+    padding: 8px;
+}
+.text ul i
+{
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
