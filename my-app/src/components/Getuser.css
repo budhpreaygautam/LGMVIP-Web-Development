@@ -1,0 +1,53 @@
+.App{
+    background-color: #91C8E4;
+    padding-top: 15px;
+    text-align: center;
+}
+nav{
+    background-color: #4682A9;
+}
+.Button{
+    background-color: #0C356A;
+    color: aliceblue;
+}
+#search{
+    background-color: aqua;
+}
+.avator img{
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+  }
+.card{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 2px;
+    background-color: #7895CB;
+    border: 1px solid #146C94;
+    align-items: center;
+    justify-content: flex-start;
+}
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    margin-top: 0px;
+    margin-top: 50px;
+  }
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+  
+.data {
+    display: none;
+    margin-top: 20px;
+}
